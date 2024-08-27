@@ -1,0 +1,84 @@
+body{
+    
+    box-sizing: border-box;
+
+    padding: 0;
+
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+
+}
+
+.positioning{
+background-color: aqua;
+width: 80%;
+margin-top: 100px;
+position: relative;
+
+}
+
+
+.pos1{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    position:fixed;
+     left: 100px; 
+     top: 200px;
+
+
+    
+    }
+    
+
+
+.pos2{
+background-color: red;
+height: 100px;
+width: 100px;
+position: sticky;
+top: 50px;
+
+
+}
+
+.pos3{
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+     }
+    
+     .pos4{
+        background-color: purple;
+        height: 100px;
+        width: 100px;
+        
+        }
+        .pos5{
+            background-color:orangered;
+            height: 200px;
+            width: 100px;
+
+            
+            }
+            .pos6{
+                background-color: yellow;
+                height: 100px;
+                width: 100px;
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                
+                }
+                .pos7{
+                    background-color:green;
+                    height: 500px;
+                    width: 100px;
+
+                    
+                    }
+
+                                            
